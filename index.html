@@ -28,7 +28,7 @@
 		<div class="slides">
 			<section>
 				<h1>Reveal.js</h1>
-				<h3>A JavaScript framework for creating presentations via HTML</h3>
+				<h3>A framework for creating presentations</h3>
 				<p>
 					<small>Created by
 						<a href="https://github.com/adroi3">David Hedtke</a>
@@ -43,14 +43,63 @@
 				<section>
 					<ul>
 						<li>What is reveal.js?</li>
-						<li>What can you do with it?
+						<li>How can you use it?
 							<ul>
 								<li>Online editor</li>
 								<li>Setup without a server</li>
 								<li>Setup with a server</li>
 							</ul>
 						</li>
+						<li>A live coding example</li>
 					</ul>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>What is reveal.js?</h2>
+					<ul>
+						<li>reveal.js is a framework for easily creating a web-based presentation</li>
+
+						<li>There are different approaches to create them</li>
+					</ul>
+				</section>
+				<section>
+					<ul>
+						<li>You can use HTML</li>
+					</ul>
+					<section data-markdown>
+							<script type="text/template">
+									```
+									<div class="reveal">
+											<div class="slides">
+												<section>Single Horizontal Slide</section>
+												<section>
+													<section>Vertical Slide 1</section>
+													<section>Vertical Slide 2</section>
+												</section>
+											</div>
+									</div>
+									```
+								</script>
+						</section>
+				</section>
+				<section>
+					<ul>
+						<li>You can use Markdown</li>
+					</ul>
+					<section data-markdown>
+							<script type="text/template">
+											```
+											<section data-markdown>
+													## Markdown support
+												  
+													Write content using inline or external Markdown.
+													Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+											</section>											
+											```
+							</script>
+						</section>
 				</section>
 			</section>
 		</div>
