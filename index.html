@@ -43,13 +43,7 @@
 				<section>
 					<ul>
 						<li>What is reveal.js?</li>
-						<li>How can you use it?
-							<ul>
-								<li>Online editor</li>
-								<li>Setup without a server</li>
-								<li>Setup with a server</li>
-							</ul>
-						</li>
+						<li>How can you use reveal.js?</li>
 						<li>A live coding example</li>
 					</ul>
 				</section>
@@ -69,7 +63,7 @@
 						<li>You can use HTML</li>
 					</ul>
 					<section data-markdown>
-							<script type="text/template">
+						<script type="text/template">
 									```
 									<div class="reveal">
 											<div class="slides">
@@ -82,14 +76,14 @@
 									</div>
 									```
 								</script>
-						</section>
+					</section>
 				</section>
 				<section>
 					<ul>
 						<li>You can use Markdown</li>
 					</ul>
 					<section data-markdown>
-							<script type="text/template">
+						<script type="text/template">
 											```
 											<section data-markdown>
 													## Markdown support
@@ -99,7 +93,29 @@
 											</section>											
 											```
 							</script>
-						</section>
+					</section>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>How can you use reveal.js?</h2>
+				</section>
+				<section>
+					<ul>
+						<li>
+							<a href="https://slides.com/">Via the online editor</a>
+						</li>
+						<li>Set it up without a server</li>
+						<li>Set it up with a Node.js server</li>
+					</ul>
+
+					<aside class="notes">
+						<b>Setup without a server</b>
+						<br /> -Simply download the latest release version
+						<br /> -Now you can edit the index.html site and display it via a browser
+						<br /> -You can't do everything with this verision
+					</aside>
 				</section>
 			</section>
 		</div>
@@ -118,7 +134,6 @@
 				{ src: 'plugin/markdown/markdown.js' },
 				{ src: 'plugin/notes/notes.js', async: true },
 				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
-				{ src: 'plugin/jump/jump.js', async: true }
 			],
 		});
 	</script>
